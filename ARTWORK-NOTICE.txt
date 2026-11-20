@@ -1,0 +1,23 @@
+Claude artwork reference
+
+The Clawd pixel-crab sheets and Claude star mark in this directory were supplied
+locally in dsh-claude-style-master by the user for this personal theme adaptation.
+Original theme project: Nwflower/dsh-claude-style.
+The crab sheets are drawn by that project after Anthropic's Clawd character;
+all rights in the character remain with Anthropic. These artworks are not
+covered by this package's MIT code license.
+This is an unofficial personal fan theme, not affiliated with or endorsed by
+Anthropic, GitHub, or DeepSeek.
+
+The original artwork notice from the supplied theme follows:
+
+ the pixel crab (Clawd) is a character of Anthropic, and
+all rights in it remain with Anthropic. `packages/assets/src/mascot/crab/crab-laptop-body.png`
+and `packages/assets/src/mascot/crab/crab-laptop-ink.png` are frames of Claude Code's own
+animation; the remaining sheets in that directory are drawn by this project
+after that character (by `scripts/art/draw-crab.py`, which carries the drawings).
+These files, and their copies inlined into `lib/client.js`, are **not** covered
+by the MIT license above. This plugin is an unofficial fan work, not affiliated
+with or endorsed by Anthropic.
+
+
