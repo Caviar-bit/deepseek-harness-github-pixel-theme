@@ -1,5 +1,5 @@
 # GitHub Pixel · 像素栖地
-[在线功能介绍与交互演示](https://caviar-bit.github.io/deepseek-harness-github-pixel-theme/) · [完整主题 ZIP](GitHub像素主题.zip) · [源码 ZIP](dsh-github-pixel-theme-source-1.2.2.zip)
+[在线功能介绍与交互演示](https://caviar-bit.github.io/deepseek-harness-github-pixel-theme/) · [完整主题 ZIP](GitHub像素主题.zip) · [源码 ZIP](dsh-github-pixel-theme-source-1.2.3.zip)
 
 为 DeepSeek Harness 制作的像素互动主题。以 GitHub 首页的彩色像素网格为灵感，结合独立底色、Clawd 桌面宠物与 Claude 风格星芒。
 
@@ -20,7 +20,7 @@
 3. 在安装包所在目录运行：
 
 ```powershell
-dsh plugin --profile desktop add "./dsh-github-pixel-theme-1.2.2.tgz"
+dsh plugin --profile desktop add "./dsh-github-pixel-theme-1.2.3.tgz"
 ```
 
 4. 重启 Harness。点击新会话右下角四色按钮，在“像素主题设置”中调整功能。
@@ -42,7 +42,11 @@ Windows 用户已配置 `dsh` 命令后，也可以运行 ZIP 中的“安装到
 
 首页原生像素鲸鱼背景已隐藏。左右上角的四色装饰可在“像素互动 → 角落彩色方块”中关闭。
 
-## v1.2.2
+## v1.2.3
+
+修复真实 Harness 侧边栏调色不生效，适配原生 sidebar-fill 颜色变量与 AppFrame 容器。完整十六进制色号输入后立即应用，无需移开焦点；浅色与深色分别保存，刷新后保留。更新后请重启 Harness。
+
+### v1.2.2
 
 修复输出中鲸鱼尾巴与星芒同时显示的问题。两种输出图标按选项切换；状态文字、计时和无障碍播报保留。更新后请重启 Harness，原有主题配置可继续使用。
 
