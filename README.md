@@ -2,9 +2,9 @@
 
 DeepSeek Harness 互动主题：保留 GitHub 像素网格，新增可切换的 Antigravity 风格粒子场，支持独立底色、Clawd 桌面宠物与 Claude 风格星芒。
 
-**普通用户推荐下载：[github-pixel-theme-1.4.1.zip](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases/download/v1.4.1/github-pixel-theme-1.4.1.zip)。解压后安装，无需下载其他附件。**
+**普通用户推荐下载：[github-pixel-theme-1.5.1.zip](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases/download/v1.5.1/github-pixel-theme-1.5.1.zip)。解压后安装，无需下载其他附件。**
 
-[在线功能介绍与交互演示](https://caviar-bit.github.io/deepseek-harness-github-pixel-theme/) · [v1.4.1 发布页](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases/tag/v1.4.1) · [历史版本（保留）](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases) · [完整主题备用下载](github-pixel-theme-1.4.1.zip)
+[在线功能介绍与交互演示](https://caviar-bit.github.io/deepseek-harness-github-pixel-theme/) · [v1.5.1 发布页](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases/tag/v1.5.1) · [历史版本（保留）](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases) · [完整主题备用下载](github-pixel-theme-1.5.1.zip)
 
 ## 功能
 
@@ -19,11 +19,11 @@ DeepSeek Harness 互动主题：保留 GitHub 像素网格，新增可切换的 
 - 字体、字号、对话宽度、卡片圆角，JSON 配置导入与导出。
 - 支持减少动态效果、后台暂停、上下文恢复和卸载清理。
 
-### v1.4.1 不规则粒子团与爆散演示
+### v1.5.1 粒子彩球与爆散演示
 
 以下为本地独立预览截图，不连接模型。彩球在实际运行中持续旋转与扭曲，发送后的爆散会自动回归鼠标互动。
 
-![输入时聚合的旋转变形立体粒子彩球](preview-antigravity-orb-1.4.1.png)
+![输入时聚合的旋转变形立体粒子彩球](preview-antigravity-orb-1.5.1.png)
 
 ### 画面演示
 
@@ -64,12 +64,12 @@ DeepSeek Harness 互动主题：保留 GitHub 像素网格，新增可切换的 
 
 ## 安装与更新
 
-1. 下载推荐的 `github-pixel-theme-1.4.1.zip` 并完整解压。
+1. 下载推荐的 `github-pixel-theme-1.5.1.zip` 并完整解压。
 2. 关闭其他完整主题，避免样式叠加。
 3. Windows 用户配置好 `dsh` 命令后，可运行“安装到桌面版.cmd”；也可在安装包目录运行：
 
 ```powershell
-dsh plugin --profile desktop add "./dsh-github-pixel-theme-1.4.1.tgz"
+dsh plugin --profile desktop add "./dsh-github-pixel-theme-1.5.1.tgz"
 ```
 
 4. **完全退出并重新打开 Harness。** 点击右下角四色按钮打开主题设置。
@@ -81,9 +81,9 @@ dsh plugin --profile desktop add "./dsh-github-pixel-theme-1.4.1.tgz"
 
 | 文件 | 用途 |
 | --- | --- |
-| **`github-pixel-theme-1.4.1.zip`** | **推荐。** 安装包、安装脚本、独立预览、说明、源码和测试全部包含。 |
-| `dsh-github-pixel-theme-1.4.1.tgz` | 熟悉 CLI、只需要安装插件时下载。 |
-| `dsh-github-pixel-theme-source-1.4.1.zip` | 开发和修改主题时下载。 |
+| **`github-pixel-theme-1.5.1.zip`** | **推荐。** 安装包、安装脚本、独立预览、说明、源码和测试全部包含。 |
+| `dsh-github-pixel-theme-1.5.1.tgz` | 熟悉 CLI、只需要安装插件时下载。 |
+| `dsh-github-pixel-theme-source-1.5.1.zip` | 开发和修改主题时下载。 |
 | GitHub 自动生成的 `Source code` | 仓库快照；普通安装请选上面的推荐 ZIP。 |
 
 ## 设置入口
@@ -99,11 +99,16 @@ dsh plugin --profile desktop add "./dsh-github-pixel-theme-1.4.1.tgz"
 
 输入聚团可关闭；中文输入法确认、Shift+Enter 换行和“停止生成”不会触发爆散。Enter 仅在宿主接受发送并清空编辑器后触发。主题只观察界面事件，发送操作仍由 Harness 处理。
 
+## v1.5.1
+
+bug 调整。
+
 ## 历史版本
 
 已有的 Release、标签和下载附件均保留。需要回退时，到 [Releases](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases) 下载对应版本的安装包。
 
-- [v1.4.1](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases/tag/v1.4.1)：双背景、GPU 粒子、输入聚团、发送爆散及黑底修正。
+- [v1.5.1](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases/tag/v1.5.1)：双背景、GPU 粒子、输入聚团、发送爆散及黑底修正。
+- [v1.4.1](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases/tag/v1.4.1)：不规则粒子聚团版本。
 - [v1.4.0](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases/tag/v1.4.0)：上一版规则彩球与发送爆散。
 - [v1.2.3](https://github.com/Caviar-bit/deepseek-harness-github-pixel-theme/releases/tag/v1.2.3)：原像素主题版本，修复侧边栏调色。
 
@@ -116,7 +121,7 @@ node build.mjs
 node --test tests/*.test.mjs
 ```
 
-构建无第三方依赖，需要 Node.js 22.18 或更新版本。通过 23 项自动测试；浏览器验证了聚球、持续旋转变形、点击与 Enter 发送、误触发排除、页面阶段切换、减少动态效果、GPU 上下文恢复、Canvas 回退及卸载清理。真实模型会话和不同实体手机尚未完整实测，实际 FPS 随设备、宿主和画布尺寸变化。
+构建无第三方依赖，需要 Node.js 22.18 或更新版本。通过 27 项自动测试；浏览器验证了聚球、持续旋转变形、点击与 Enter 发送、误触发排除、页面阶段切换、减少动态效果、GPU 上下文恢复、Canvas 回退及卸载清理。真实模型会话和不同实体手机尚未完整实测，实际 FPS 随设备、宿主和画布尺寸变化。
 
 面向 DeepSeek Harness 0.2.x，最低声明版本 `0.2.1-rc.3`。宿主更新 DOM 或插件接口时可能需要适配。
 
